@@ -1,0 +1,659 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+body{
+    background-image: url("execute-pink_4000x2250px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ff{
+    width: 65px;
+    height:65px;
+    margin:10px 20px;
+}
+.triple{
+    height: 60px;
+    width: 60px;
+    padding:1em;
+    /*border:1px solid white; */
+    display: none;
+}
+.bar{
+    font-size:50px;
+}
+.navlin{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    width: auto;
+    height: 100%;
+    /* border: 2px solid red; */
+    align-items: center;
+    gap:20px;
+}
+.navlin  li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.main{
+display: flex;
+width:100%;
+height:650px;
+/* padding:10%; */
+/* padding-left:10% ; */
+
+}
+.d-bloc{
+width: 90%;
+margin:0% 5%;
+
+}
+#carouselExampleCaptions{
+    width: 90%;
+    height: 90%;
+    padding: 2% 0%;
+    margin: 0% 5%;
+}
+#carouselExampleCaptions img{
+    height: 600px;
+}
+.mar{
+    width: 95%;
+    height: 530px;
+}
+section .section1{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1{
+    font-size: 37px;
+    font-weight: 200;
+    text-align: center;
+    /* padding-top: 70px; */
+}
+.text{
+    padding-top:27px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.section1{
+    width: 100%;;
+    height: 400px;
+    display: flex;
+    /* border:1px solid red;  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding:3%; */
+}
+.card1{
+    width: 85%;
+    height:290px;
+    margin:30px 50px;
+    /* border:1px solid red; */
+    position: relative;
+}
+#asian{
+    width:100%;
+height:300px;
+border-radius: 10%;
+}
+#but{
+    width: 60%;
+    height: 40%;
+    background-color: purple;
+    border: 1px solid rebeccapurple;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0% 20%;
+color:white;
+padding:10px 5%;
+}
+
+.incard1{
+    width: 85%;
+    height:300px;
+    transform: rotateY(0deg);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 4px 10px rgb(166, 196, 201);
+    border-radius: 20px;
+}
+.backcard1{
+    width: 85%;
+    height:300px;
+    color:white;
+    position: absolute;
+    top:0;
+    background-color: rgba(255, 93, 255, 0.7);
+    transform: rotateY(-90deg);
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 5px 5px 12px rgb(197, 229, 253);
+}
+.card1:hover .incard1{
+    transform: rotateY(-90deg);
+    transition: all 0.3s ease-in-out;
+}
+.card1:hover .backcard1{
+    transform: rotateY(0deg);
+    transition: all 0.3s ease-in-out;
+}
+.Hone{
+    font-size:29px;
+    font-weight: 300;
+    color:white;
+     text-align: center;
+    /* margin:10px; */ 
+}
+.f2{
+    background-color: rgb(163, 101, 221);
+    width: 80px;
+    height:80px;
+    border-radius: 80%;
+    /* margin:10px; */
+}
+.intext{
+margin:8px;
+font-size: 22x;
+color:white;
+text-align: center;
+margin-top: 20px;
+}
+.section2{
+    /* border:1px solid black; */
+    height:500px;
+    width:100%;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.batle{
+width:59%;
+margin:50px;
+height:450px;
+/* border :2px solid rebeccapurple; */
+position:relative;
+margin-left: 20%;
+text-align: center;
+}
+.inbatle{
+    height: 400px;
+    transform: rotateX(0deg); 
+    transition: all 0.3s ease-in-out;
+}
+#bat{
+    border-radius: 15px;
+    height: 400px;
+    width:100%;
+    box-shadow: 3px 4px 10px rgb(166, 196, 201);
+}
+.f3{
+    background-color: rgb(163, 101, 221);
+    width: 120px;
+    height:120px;
+    margin:10px;
+    margin-left: 30%;
+}
+.backbatle{
+    position: absolute;
+    top:0%;
+    height:400px;
+    width: 100%;
+    background-color: rgba(255, 93, 255, 0.7);
+    border: 1px solid blueviolet;
+    transform: rotateX(-90deg);
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 5px 5px 12px rgb(171, 213, 245);
+}
+.batle:hover .inbatle{
+    transform: rotateX(-90deg);
+    transition: all 0.3s ease-in-out;
+}
+.batle:hover .backbatle{
+    transform: rotateX(0deg);
+    transition: all 0.3s ease-in-out;
+}
+.h3{
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    margin:50px;
+}
+#but-batle{
+    width: 30%;
+    height: 40%;
+    background-color: purple;
+    border: 1px solid rebeccapurple;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0% 20%;
+color:white;
+padding:10px 5%;
+}
+.flexbox{
+    width: 100%;
+    height:850px;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    box-sizing: border-box;
+    background: white;
+    gap:5%;
+    padding: 2% 0;
+    justify-content: center;
+    
+}
+.one{
+    height: auto; width: 26%;
+    border:1px solid rgb(253, 229, 229);
+    /* margin-left: 60px;
+    margin-top: 40px;
+    padding:30px;
+     margin-bottom: 4%; */
+    border-radius: 24px;
+    padding: 20px;
+    background: #f0f5f1;
+    box-shadow:  11px 11px 11px #a6a9a6,
+                 -11px -11px 11px #ffffff;
+} 
+.two{
+     height: 290px;
+     width: 27%;
+    border:1px solid rgb(253, 229, 229);
+    /* margin:50px;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding:30px; */
+    padding: 20px;
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow:  15px 15px 46px #b0b0b0,
+                 -15px -15px 46px #ffffff;
+   
+}
+.three{
+    height: auto;
+    width: 26%;
+    padding: 20px;
+    border:1px solid rgb(253, 229, 229);
+  /* margin: 50px; */
+  /* margin-left: 60px;
+  margin-top: 40px; */
+    /* padding:30px; */
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow:  19px 19px 52px #8a8a8a,
+                 -19px -19px 52px #ffffff;
+}
+.hflex{
+    font-size: 32px;
+    font-weight: 250;
+     margin:15px;
+    margin-left: 0%;
+}
+.tsize{
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-left: 26px;
+
+}
+#icon{
+    font-size: 25px;
+    color:green;
+    margin:5px;
+}
+.aside{
+ background-image: url("./blackcolorgame.png");
+ background-attachment: fixed;
+ height: 600px;
+ width: 100%;
+ margin-top: 0%;
+ margin-bottom: 150px;
+ display: flex;
+}
+.indiv1{
+    height:400px;
+    width: 35%;
+    /* border:1px solid rgb(64, 4, 64); */
+    margin-top:200px;
+}
+#kokan{
+width:100%;
+height:400px;
+}
+.div2{
+    height:560px;
+    width: 65%;
+    /* border:1px solid rgb(62, 4, 62); */
+    margin-top:100px;
+    padding: 30px;
+    background-color: rgba(155, 218, 155, 0.9);
+}
+.about{
+    margin:10px;
+    font-size:38px;
+}
+.spa{
+    font-size: 1.3em;
+}
+.dis{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.2em;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 90px;
+    padding: 5%;
+    text-align: center;
+    font-size: larger;
+    color: white;
+     }
+     .ip{
+      margin-top: 80px;
+      font-size:25px;
+      text-align: center;
+     }
+    
+    .ved{
+      border:none;
+    outline:none;
+    background: rgb(87, 86, 86);
+    width: 230px;
+    color: white;
+    }
+    
+    .in{ 
+      margin:80px;
+      outline:none;
+      width:300px;
+      height:50px;
+      height: auto;
+      border:1px solid rgb(81, 77, 77);
+      border-radius: 25px;
+      padding:3px;
+      background: rgb(87, 86, 86);
+
+    }
+    .asearch{
+      color:gray;
+    }
+    #fb{
+      color:purple;
+      font-size: 36px;
+      margin-left:40px;
+    }
+    .copy{
+      font-size: larger;
+    }
+.dp,.dc{
+    height: 200px;
+    width: fit-content;
+    padding:15px;
+    margin:10px;
+    /* border:1px hidden red; */
+}
+
+@media  screen and (max-width:1200px) {
+   .triple{
+    display: none;
+   }
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 30%;
+        margin: 10px 10px;
+    }
+    .white{
+       height: 1700px;
+       /* border: 2px solid red; */
+    }
+    .div2{
+      display: block;
+
+    }
+    .white{
+        max-height: 1280px;
+        background: white;
+    }
+    .flexbox{
+        /* border: 2px solid red; */
+        height: auto;
+    }
+    .one,.two,.three{
+        padding:0px 10px ;
+        width: 40%;
+    }
+    .aside{
+        display: flex;
+    }
+  
+    .spa,.dis p{
+        font-size: 0.9em;
+    }
+}
+     @media screen and (min-width: 500px) and (max-width: 850px) {
+        .section1 {
+            display: block;
+            height: auto;
+            margin: 20px;
+        }
+    .navlin{
+        display: none;
+    }
+    .triple{
+        display: flex;
+    }
+        .card1 {
+            width: 70%;
+            height: auto;
+            margin: 20px 15%;
+        }
+    
+        .section2 {
+            padding: 0;
+            height: auto;
+            text-align: center;
+        }
+    
+        .batle {
+            width: 90%;
+            margin-left: 0;
+        }
+    
+        .white {
+            height: auto;
+            background: white;
+        }
+    .flexbox{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        /* border:3px solid black; */
+    }
+        .one,
+        .two,
+        .three {
+            margin: 30px 10px;
+            width: 30%;
+            height: auto;
+        }
+        .aside {
+            height: auto;
+            display: block;
+            padding: 0 2%;
+            margin: 0;
+        }
+    
+        .indiv1 {
+            width: 95%;
+            margin: 0;
+        }
+    
+        .div2 {
+            width: 95%;
+            display: block;
+            margin: 0;
+            height: auto;
+        }
+    
+        .spa {
+            font-size: 0.9em;
+        }
+    
+        .tsize {
+            font-size: 1em;
+        }
+    
+        .dis {
+            width: 100%;
+            display: block;
+        }
+    
+        .dis p {
+            font-size: 0.8em;
+        }
+    
+        footer {
+            margin: 0;
+        }
+    
+        .in {
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        #fb {
+            margin: 12px;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .nav{
+            width:100%;
+        }
+        .navlin{
+            display:none ;
+        }
+        .triple{
+            display: block;
+        }
+        .section1 {
+            display: block;
+            height: auto;
+            text-align: center;
+        }
+    
+        .card1 {
+            width: 90%;
+            height: auto;
+            margin:30px  5%;
+        }
+        .section2 {
+            padding: 0%;
+            height: auto;
+            text-align: center;
+            margin-bottom: 460px;
+            /* border: 1px solid red; */
+            margin: 0%;
+        }
+    
+        .batle {
+            width: 100%;
+            margin-left: 0%;
+        }
+    
+        .white {
+            background: white;
+            /* border: 1px solid red; */
+        }
+        .flexbox{
+            height: 1500px;
+            /* border: 3px solid blue; */
+            gap:20px;
+            width: 100%;
+            padding: 0% 5%;
+        }
+        .one,
+        .two,
+        .three {
+           width: 80%;
+           height: 200px;
+           padding: 3% 10px;
+        }
+    
+        .aside {
+            height: auto;
+            display: block;
+            padding: 0% 2%;
+            margin: 0%;
+        }
+    
+        .indiv1 {
+            width: 95%;
+            margin: 0%;
+        }
+    
+        .div2 {
+            width: 95%;
+            display: block;
+            margin: 0%;
+            height: auto;
+        }
+    
+        .spa {
+            font-size: 0.9em;
+        }
+    
+        .tsize {
+            font-size: 0.99em;
+        }
+    
+        .dis {
+            width: 100%;
+            display: block;
+        }
+    
+        .dis p {
+            font-size: 0.8em;
+        }
+    
+        footer {
+            margin: 0%;
+        }
+    
+        .in {
+            margin-left: 0%;
+            text-align: center;
+        }
+    
+        #fb {
+            margin: 12px;
+            text-align: center;
+        }
+    }

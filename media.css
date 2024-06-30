@@ -1,0 +1,55 @@
+ 
+@media only screen and (max-width: 768px) {
+  
+    .nav {
+        height: 80px;
+    }
+    .main {
+        height: auto;
+        flex-direction: column; 
+    }
+    .section1{
+        flex-direction: column;
+        height:900px;
+    }
+    
+  .flexbox.section1 {
+        height: auto;
+        flex-direction: column; 
+    }
+    .flexbox{
+        height:1500px;
+    }
+    .one,.two,.three{
+        height: 100px;
+        margin:20p;
+    }
+    #icon{
+font-size: 10px;
+    }
+    .text{
+        font-size: 8px;
+    }
+    .hflex
+    {
+        font-size: 12px;
+    } 
+    /* .tsize{
+
+    }     .tsize,.intext,.spa{
+        font-size: 8px;  
+    }
+    .one,.two,.three{
+        height:200px;
+        width:100px;
+        padding:2px;
+        margin:10px;
+    }
+    
+    .card1 {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+    .but {
+        margin-left: 0; */
+    }
